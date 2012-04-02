@@ -33,7 +33,7 @@ public class CeeVeeTest
 	// setting test case name and claim number
 	@SuppressWarnings("rawtypes")
 	@Parameters
-    public static Collection data() {
+	  public static Collection data() {
         return Arrays.asList(new Object[][] { 
         		{ "CeeVee1", "001" }, 
         		{ "CeeVee2", "002" },
@@ -43,7 +43,8 @@ public class CeeVeeTest
 	
 	// test case constructor 
 	public CeeVeeTest(String testCaseName, String claimNumber) {
-        this.testCaseName = testCaseName;
+        super();
+		this.testCaseName = testCaseName;
         this.claimNumber = claimNumber;  
     }
 	

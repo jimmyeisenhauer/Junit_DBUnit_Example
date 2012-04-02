@@ -9,7 +9,7 @@
      </layout>
    </appender>
    <logger name="org.dbunit">
-     <level value="DEBUG" />
+     <level value="INFO" />
      <appender-ref ref="stdout"/>
    </logger>
    <root>
