@@ -55,7 +55,7 @@ public class CeeVeeTest
 	public void setUp() throws Exception {
 			
 	connection = 	new JdbcDatabaseTester("com.mysql.jdbc.Driver",
-	            "jdbc:mysql://localhost/ceevee", "root", "Happy#11");
+	            "jdbc:mysql://localhost/ceevee", "root", "Password$1");
 
 	}
 
